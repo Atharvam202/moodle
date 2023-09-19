@@ -1,0 +1,207 @@
+.container
+{
+    background-color: #5642CE;
+    height: 800px;
+    width: 1240px;
+}
+.cont_img img
+{
+    width: 1090px;
+    height: auto;
+    position: relative;
+    top: -367px;
+    left: 68px;
+    
+}
+.cont_img:hover
+{
+    scale: 1.01;
+}
+
+.circlea img
+{
+    position: relative;
+    top: 0px;
+    left: 50px;
+    animation-name: circlea;
+    animation-duration: 4s;
+    animation-delay: 0s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: 1000;
+
+}
+.circlea
+{
+    animation-name: circlea;
+    animation-duration: 1000s;
+    animation-delay: 0s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: 1000;
+}
+.circleb img
+{
+    position: relative;
+    top: -100px;
+    left: 735px;
+    animation-name: circleb;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: 1000;
+    
+}
+.circleb
+{
+    animation-name: circleb;
+    animation-duration: 1000s;
+    animation-delay: 0s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: 1000;
+}
+.circled img
+{
+    position: relative;
+    top: -237px;
+    left: 995px;
+    width: 70px;
+    height: 70px;
+    animation-name: circled;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: 1000;
+}
+.circled
+{
+    animation-name: circled;
+    animation-duration: 1000s;
+    animation-delay: 0s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: 1000;
+
+}
+.circlec
+{
+    animation-name: circlec;
+    animation-duration: 1000s;
+    animation-delay: 0s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: 1000;
+
+}
+.circlec img
+{
+    position: relative;
+    top: -178px;
+    left: 165px;
+    animation-name: circlec;
+    animation-duration: 4s;
+    animation-delay: 3s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: 1000;
+}
+.text1
+{
+    position: relative;
+    top: -113px;
+    left: 445px;
+    color: white;
+    font-size: 25px;
+    width: 300px;
+
+}
+.page9
+{
+    max-width: 1130px;
+}
+.text2
+{
+    color: white;
+    position: relative;
+    top: -231px;
+    left: 245px;
+    font-size: 25px;
+    width: 573px;
+
+}
+.button3
+{
+    left: 469px;
+    top: -245px;
+    background-color: white;
+    height: 50px;
+    width: 150px;
+    position: relative;
+    border: black;
+    box-sizing: 2px;
+    border-radius: 7px;
+}
+.button3 h1
+{
+    font-size: 20px;
+    align-self: center;
+    margin-left: 30px;
+    position: absolute;
+    top: -1px;
+
+}
+.button3:hover
+{
+    background-color: black;
+    color: white;
+    scale: 1.1;
+    cursor: pointer;
+}
+@keyframes circlea {
+    from{
+        width: 268px;
+        height: 145px;
+    }
+    to{
+        width: 278px;
+        height: 155px;
+    }
+}
+@keyframes circleb {
+    from{
+        width: 127px;
+        height: 125px;
+    }
+    to{
+        width: 137px;
+        height: 135px;
+    }
+}
+@keyframes circlec {
+    from{
+        width: 66px;
+        height: 57px;
+    }
+    to{
+        width: 76px;
+        height: 67px;
+    }
+}
+@keyframes circled {
+    from{
+        width: 70px;
+        height: 70px;
+
+    }
+    to{
+        width: 80px;
+        height: 80px;
+    }
+}
+@keyframes circles {
+    from{
+        width: 1090px;
+        height: auto;
+
+    }
+    to{
+        width: 1100px;
+        height: auto;
+    }
+}
+  

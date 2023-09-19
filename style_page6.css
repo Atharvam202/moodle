@@ -1,0 +1,140 @@
+.page6
+{
+    display: flex;
+}
+.h1 h1
+{
+    font-size: 15px;
+    color: red;
+}
+.h2 h1{
+    font-size: 50px;
+    width: 350px;
+}
+.h2 h1:hover
+{
+    color: #5642CE;
+}
+.para3
+{
+    width: 400px;
+    font-size: 18px;
+}
+.text
+{
+    margin-top: 140px;
+    margin-left: 190px;
+}
+.image_grid
+{
+    display: grid;
+    gap: 10px;
+    grid-template-areas: 
+    "I1 I2"
+    "I3 I4" ;
+    margin-left: 30px;
+}
+.base
+{
+    background-color: #FFFFFF;
+    width: 170px;
+    height: 220px;
+    border-radius: 10px;
+    
+}
+body
+{
+    background-color: #F3F5FE;
+}
+.base_image img
+{
+    margin-top: 30px;
+    margin-left: 65px;
+}
+.base_number
+{
+    margin-left: 60px;
+    color: #5642CE;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.Item4 .base_number 
+{
+    margin-left: 74px;
+    color: #5642CE;
+}
+.Item3 .base_number 
+{
+    margin-left: 64px;
+    color: #5642CE;
+}
+.Item1 .base_number 
+{
+    margin-left: 64px;
+    color: #5642CE;
+}
+.base_text p
+{
+    margin-left: 38px;
+}
+.Item4 .base_text p
+{
+    margin-left: 25px;
+}
+.Item2 .base_text p
+{
+    margin-left: 25px;
+}
+.Item3 .base_text p
+{
+    margin-left: 50px;
+}
+.Item1
+{
+    grid-area: I1;
+    margin-left: 80px;
+    margin-top: 80px;
+
+}
+.Item1:hover
+{
+    scale: 1.1;
+    
+}
+.Item2:hover
+{
+    scale: 1.1;
+    
+}
+.Item3:hover
+{
+    scale: 1.1;
+    
+}
+.Item4:hover
+{
+    scale: 1.1;
+    
+}
+.Item2
+{
+    grid-area: I2;
+    margin-left: 15px;
+    margin-top: 80px;
+
+}
+.Item3
+{
+    grid-area: I3;
+    margin-left: 80px;
+    margin-top: 15px;
+
+}
+.Item4
+{
+    grid-area: I4;
+    margin-left: 15px;
+    margin-top: 15px;
+
+}

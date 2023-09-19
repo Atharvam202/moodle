@@ -1,0 +1,82 @@
+.h4 h1
+{
+    align-items: center;
+    margin-left: 350px;
+}
+.features_grid
+{
+    display: grid;
+    gap: 20px;
+    grid-template-areas: 
+    "I1 I2 I3"
+    "I4 I5 I6"
+    "I7 I8 I9" ;
+}
+.feature1_flex
+{
+    display: flex;
+    margin-left: 20px;
+}
+.feature_img img
+{
+    width: 150px;
+    height: 150px;
+}
+.feature_h1 h1
+{
+    position: relative;
+    top: 40px;
+    left: 20px;
+    font-size: 25px;
+}
+.feature_para p
+{
+    position: relative;
+    top: -35px;
+    left: 46px;
+
+}
+.feature1
+{
+    grid-area: I1;
+}
+.feature2
+{
+    grid-area: I2;
+}
+.feature3
+{
+    grid-area: I3;
+}
+.feature4
+{
+    grid-area: I4;
+}
+.feature5
+{
+    grid-area: I5;
+}
+.feature6
+{
+    grid-area: I6;
+}
+.feature7
+{
+    grid-area: I7;
+}
+.feature8
+{
+    grid-area: I8;
+}
+.feature9
+{
+    grid-area: I9;
+}
+.page8
+{
+    max-width: 1200px;
+}
+.feature_img:hover
+{
+    scale: 1.2;
+}
